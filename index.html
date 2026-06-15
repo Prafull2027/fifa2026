@@ -1,246 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FIFA 2026 Hub | News, Rankings & Predictions</title>
-
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-font-family:Arial,sans-serif;
-background:#0f172a;
-color:white;
-line-height:1.6;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
-header{
-background:#111827;
-padding:20px 50px;
-display:flex;
-justify-content:space-between;
-align-items:center;
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
-.logo{
-font-size:28px;
-font-weight:bold;
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
 
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-font-weight:bold;
+nav li a {
+    color: white;
+    margin: 15px;
+    font-size: 1.2em;
+    text-decoration: none;
 }
 
-.hero{
-text-align:center;
-padding:100px 20px;
-background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
-url('https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a');
-background-size:cover;
-background-position:center;
+main section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
 
-.hero h1{
-font-size:60px;
-margin-bottom:20px;
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
 }
 
-.hero p{
-font-size:22px;
-margin-bottom:30px;
-}
-
-.btn{
-background:#22c55e;
-padding:15px 30px;
-color:white;
-text-decoration:none;
-border-radius:5px;
-font-weight:bold;
-}
-
-.section{
-padding:60px 50px;
-}
-
-.section h2{
-margin-bottom:30px;
-font-size:35px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:20px;
-}
-
-.card{
-background:#1e293b;
-padding:20px;
-border-radius:10px;
-transition:.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-}
-
-.rankings li{
-margin-bottom:10px;
-font-size:18px;
-}
-
-.video-box{
-background:#1e293b;
-padding:30px;
-border-radius:10px;
-text-align:center;
-}
-<section class="section">
-
-<h2>Latest Articles</h2>
-
-<div class="card">
-<h3>
-<a href="usa-struggle.html" style="color:white;text-decoration:none;">
-Why USA May Struggle in FIFA 2026
-</a>
-</h3>
-
-<p>
-Examining key weaknesses ahead of the tournament.
-</p>
-</div>
-
-<div class="card">
-<h3>Argentina's Biggest Weakness</h3>
-<p>Can Argentina defend their World Cup title?</p>
-</div>
-
-<div class="card">
-<h3>Top 10 FIFA 2026 Favorites</h3>
-<p>The strongest teams heading into the tournament.</p>
-</div>
-
-</section>
-footer{
-background:#111827;
-padding:30px;
-text-align:center;
-margin-top:40px;
-}
-</style>
-</head>
-
-<body>
-
-<header>
-<div class="logo">⚽ FIFA 2026 HUB</div>
-
-<nav>
-<a href="#">Home</a>
-<a href="#">News</a>
-<a href="#">Rankings</a>
-<a href="#">Predictions</a>
-<a href="#">Videos</a>
-<a href="#">About</a>
-</nav>
-</header>
-
-<section class="hero">
-<h1>FIFA World Cup 2026</h1>
-<p>Latest News, Rankings, Predictions & Analysis</p>
-<a class="btn" href="#">Explore Now</a>
-</section>
-
-<section class="section">
-<h2>Latest News</h2>
-
-<div class="grid">
-
-<div class="card">
-<h3>
-<a href="usa-struggle.html">
-Why USA May Struggle in FIFA 2026
-</a>
-</h3>
-<p>Examining key weaknesses ahead of the tournament.</p>
-</div>
-
-<div class="card">
-<h3>Argentina's Biggest Threats</h3>
-<p>Can the defending champions repeat history?</p>
-</div>
-
-<div class="card">
-<h3>Brazil's Road To Glory</h3>
-<p>How Brazil plans to challenge for the title.</p>
-</div>
-
-</div>
-</section>
-
-<section class="section">
-<h2>Power Rankings</h2>
-
-<div class="card">
-<ol class="rankings">
-<li>Argentina 🇦🇷</li>
-<li>Spain 🇪🇸</li>
-<li>France 🇫🇷</li>
-<li>Brazil 🇧🇷</li>
-<li>England 🏴</li>
-<li>Portugal 🇵🇹</li>
-<li>Germany 🇩🇪</li>
-<li>Netherlands 🇳🇱</li>
-<li>USA 🇺🇸</li>
-<li>Croatia 🇭🇷</li>
-</ol>
-</div>
-</section>
-
-<section class="section">
-<h2>Predictions</h2>
-
-<div class="grid">
-
-<div class="card">
-<h3>Dark Horse Team</h3>
-<p>Portugal could surprise everyone in 2026.</p>
-</div>
-
-<div class="card">
-<h3>Golden Boot Favorite</h3>
-<p>The race for the tournament's top scorer.</p>
-</div>
-
-<div class="card">
-<h3>Potential Final</h3>
-<p>Argentina vs France rematch?</p>
-</div>
-
-</div>
-</section>
-
-<section class="section">
-<h2>Featured Video</h2>
-
-<div class="video-box">
-<h3>Your Latest YouTube Video</h3>
-<p>Replace this section with your embedded YouTube videos.</p>
-</div>
-</section>
-
-<footer>
-<p>© 2026 FIFA 2026 Hub | News • Rankings • Predictions</p>
 </footer>
 
 </body>
